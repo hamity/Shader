@@ -12,6 +12,7 @@
           <e p="Black.shader" t="Include" />
           <e p="CSharp.shader" t="Include" />
           <e p="Ice.shader" t="Include" />
+          <e p="RimLighting.shader" t="Include" />
           <e p="simple.shader" t="Include" />
           <e p="Skeleton.shader" t="Include" />
         </e>
