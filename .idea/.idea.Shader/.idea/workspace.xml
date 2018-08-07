@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/test.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/test.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/wire_087224198.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Materials/wire_087224198.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/TestScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,16 +91,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RimLighting.shader" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RimLighting.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/RimLighting.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="600">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <marker date="1533597055336" expanded="true" signature="28:1571" ph="{...}" />
-                <marker date="1533597055336" expanded="true" signature="42:219" ph="{...}" />
-                <marker date="1533597055336" expanded="true" signature="231:1549" ph="{...}" />
-                <marker date="1533597055336" expanded="true" signature="288:1541" ph="{...}" />
+                <marker date="1533597219006" expanded="true" signature="28:1591" ph="{...}" />
+                <marker date="1533597219006" expanded="true" signature="42:219" ph="{...}" />
+                <marker date="1533597219006" expanded="true" signature="231:1569" ph="{...}" />
+                <marker date="1533597219006" expanded="true" signature="288:1561" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Texture.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/Texture.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+              <folding>
+                <marker date="1533657676019" expanded="true" signature="24:1069" ph="{...}" />
+                <marker date="1533657676019" expanded="true" signature="38:164" ph="{...}" />
+                <marker date="1533657676019" expanded="true" signature="176:1047" ph="{...}" />
+                <marker date="1533657676019" expanded="true" signature="233:1039" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -126,6 +145,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ShaderController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Ice.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/RimLighting.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Texture.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Skeleton.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/CSharp.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Black.shader" root0="FORCE_HIGHLIGHTING" />
@@ -141,6 +161,7 @@
         <option value="$PROJECT_DIR$/Assets/Shader/Skeleton.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Ice.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/RimLighting.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Texture.shader" />
       </list>
     </option>
   </component>
@@ -213,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533381529958</updated>
-      <workItem from="1533381536410" duration="4643000" />
+      <workItem from="1533381536410" duration="7529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4643000" />
+    <option name="totallyTimeSpent" value="7529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,13 +363,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shader/RimLighting.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <marker date="1533597055336" expanded="true" signature="28:1571" ph="{...}" />
-            <marker date="1533597055336" expanded="true" signature="42:219" ph="{...}" />
-            <marker date="1533597055336" expanded="true" signature="231:1549" ph="{...}" />
-            <marker date="1533597055336" expanded="true" signature="288:1541" ph="{...}" />
+            <marker date="1533597219006" expanded="true" signature="28:1591" ph="{...}" />
+            <marker date="1533597219006" expanded="true" signature="42:219" ph="{...}" />
+            <marker date="1533597219006" expanded="true" signature="231:1569" ph="{...}" />
+            <marker date="1533597219006" expanded="true" signature="288:1561" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/Texture.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <marker date="1533657676019" expanded="true" signature="24:1069" ph="{...}" />
+            <marker date="1533657676019" expanded="true" signature="38:164" ph="{...}" />
+            <marker date="1533657676019" expanded="true" signature="176:1047" ph="{...}" />
+            <marker date="1533657676019" expanded="true" signature="233:1039" ph="{...}" />
           </folding>
         </state>
       </provider>
