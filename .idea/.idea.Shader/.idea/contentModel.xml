@@ -15,6 +15,7 @@
           <e p="RimLighting.shader" t="Include" />
           <e p="simple.shader" t="Include" />
           <e p="Skeleton.shader" t="Include" />
+          <e p="StandGrass.shader" t="Include" />
           <e p="Texture.shader" t="Include" />
         </e>
         <e p="ShaderController.cs" t="Include" />
