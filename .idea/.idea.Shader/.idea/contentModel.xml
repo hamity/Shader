@@ -17,6 +17,7 @@
           <e p="Skeleton.shader" t="Include" />
           <e p="StandGrass.shader" t="Include" />
           <e p="Texture.shader" t="Include" />
+          <e p="Water.shader" t="Include" />
         </e>
         <e p="ShaderController.cs" t="Include" />
       </e>
