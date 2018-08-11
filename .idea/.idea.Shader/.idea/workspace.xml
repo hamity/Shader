@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texture/Materials/flooring_sample.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texture/Materials/flooring_sample.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Texture/Materials/sea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texture/Materials/sea.mat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -133,13 +131,13 @@
       <file leaf-file-name="Water.shader" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/Water.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="435">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
-                <marker date="1533771518388" expanded="true" signature="22:703" ph="{...}" />
-                <marker date="1533771518388" expanded="true" signature="36:75" ph="{...}" />
-                <marker date="1533771518388" expanded="true" signature="87:681" ph="{...}" />
-                <marker date="1533771518388" expanded="true" signature="144:673" ph="{...}" />
+                <marker date="1533957423679" expanded="true" signature="22:781" ph="{...}" />
+                <marker date="1533957423679" expanded="true" signature="36:137" ph="{...}" />
+                <marker date="1533957423679" expanded="true" signature="149:759" ph="{...}" />
+                <marker date="1533957423679" expanded="true" signature="206:751" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -262,12 +260,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533381529958</updated>
-      <workItem from="1533381536410" duration="9729000" />
+      <workItem from="1533381536410" duration="10690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9729000" />
+    <option name="totallyTimeSpent" value="10690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,13 +428,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shader/Water.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="435">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
-            <marker date="1533771518388" expanded="true" signature="22:703" ph="{...}" />
-            <marker date="1533771518388" expanded="true" signature="36:75" ph="{...}" />
-            <marker date="1533771518388" expanded="true" signature="87:681" ph="{...}" />
-            <marker date="1533771518388" expanded="true" signature="144:673" ph="{...}" />
+            <marker date="1533957423679" expanded="true" signature="22:781" ph="{...}" />
+            <marker date="1533957423679" expanded="true" signature="36:137" ph="{...}" />
+            <marker date="1533957423679" expanded="true" signature="149:759" ph="{...}" />
+            <marker date="1533957423679" expanded="true" signature="206:751" ph="{...}" />
           </folding>
         </state>
       </provider>
