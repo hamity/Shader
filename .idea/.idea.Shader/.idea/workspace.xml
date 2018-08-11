@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="" />
+    <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533381529958</updated>
-      <workItem from="1533381536410" duration="12274000" />
+      <workItem from="1533381536410" duration="12562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12274000" />
+    <option name="totallyTimeSpent" value="12562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
