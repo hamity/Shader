@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,26 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Black.shader" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shader/Black.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="simple.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/simple.shader">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <marker date="1533470665021" expanded="true" signature="23:555" ph="{...}" />
-                <marker date="1533470665021" expanded="true" signature="37:41" ph="{...}" />
-                <marker date="1533470665021" expanded="true" signature="53:533" ph="{...}" />
-                <marker date="1533470665021" expanded="true" signature="110:525" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -42,12 +28,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding>
-                <marker date="1533513119463" expanded="true" signature="23:605" ph="{...}" />
-                <marker date="1533513119463" expanded="true" signature="39:100" ph="{...}" />
-                <marker date="1533513119463" expanded="true" signature="112:583" ph="{...}" />
-                <marker date="1533513119463" expanded="true" signature="169:575" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -57,12 +37,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              <folding>
-                <marker date="1533595039847" expanded="true" signature="25:1188" ph="{...}" />
-                <marker date="1533595039847" expanded="true" signature="39:216" ph="{...}" />
-                <marker date="1533595039847" expanded="true" signature="228:1166" ph="{...}" />
-                <marker date="1533595039847" expanded="true" signature="285:1158" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -72,12 +46,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-              <folding>
-                <marker date="1533595243732" expanded="true" signature="20:1360" ph="{...}" />
-                <marker date="1533595243732" expanded="true" signature="34:211" ph="{...}" />
-                <marker date="1533595243732" expanded="true" signature="223:1338" ph="{...}" />
-                <marker date="1533595243732" expanded="true" signature="282:1330" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +55,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <marker date="1533597219006" expanded="true" signature="28:1591" ph="{...}" />
-                <marker date="1533597219006" expanded="true" signature="42:219" ph="{...}" />
-                <marker date="1533597219006" expanded="true" signature="231:1569" ph="{...}" />
-                <marker date="1533597219006" expanded="true" signature="288:1561" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -102,12 +64,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <marker date="1533657676019" expanded="true" signature="24:1069" ph="{...}" />
-                <marker date="1533657676019" expanded="true" signature="38:164" ph="{...}" />
-                <marker date="1533657676019" expanded="true" signature="176:1047" ph="{...}" />
-                <marker date="1533657676019" expanded="true" signature="233:1039" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -117,26 +73,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
-              <folding>
-                <marker date="1533720464618" expanded="true" signature="27:1145" ph="{...}" />
-                <marker date="1533720464618" expanded="true" signature="41:83" ph="{...}" />
-                <marker date="1533720464618" expanded="true" signature="95:1123" ph="{...}" />
-                <marker date="1533720464618" expanded="true" signature="152:1115" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Water.shader" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Water.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/Water.shader">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Terrian.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/Terrian.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
-                <marker date="1533957423679" expanded="true" signature="22:781" ph="{...}" />
-                <marker date="1533957423679" expanded="true" signature="36:137" ph="{...}" />
-                <marker date="1533957423679" expanded="true" signature="149:759" ph="{...}" />
-                <marker date="1533957423679" expanded="true" signature="206:751" ph="{...}" />
+                <marker date="1533966734514" expanded="true" signature="24:911" ph="{...}" />
+                <marker date="1533966734514" expanded="true" signature="38:154" ph="{...}" />
+                <marker date="1533966734514" expanded="true" signature="166:889" ph="{...}" />
+                <marker date="1533966734514" expanded="true" signature="223:881" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -147,11 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-              <folding>
-                <marker date="1533509620596" expanded="true" signature="6:78" ph="..." />
-                <marker date="1533509620596" expanded="true" signature="126:255" ph="{...}" />
-                <marker date="1533509620596" expanded="true" signature="176:253" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -162,17 +116,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/Water.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Water.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scene/sample.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShaderController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/StandGrass.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/Ice.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/RimLighting.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/Texture.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/Skeleton.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/CSharp.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Terrian.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/StandGrass.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Ice.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Texture.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Skeleton.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Black.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/simple.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/simple.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ShaderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/RimLighting.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/CSharp.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,6 +142,7 @@
         <option value="$PROJECT_DIR$/Assets/Shader/Texture.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/StandGrass.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Water.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Terrian.shader" />
       </list>
     </option>
   </component>
@@ -259,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533381529958</updated>
-      <workItem from="1533381536410" duration="11041000" />
+      <workItem from="1533381536410" duration="11971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11041000" />
+    <option name="totallyTimeSpent" value="11971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,12 +282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <marker date="1533470665021" expanded="true" signature="23:555" ph="{...}" />
-            <marker date="1533470665021" expanded="true" signature="37:41" ph="{...}" />
-            <marker date="1533470665021" expanded="true" signature="53:533" ph="{...}" />
-            <marker date="1533470665021" expanded="true" signature="110:525" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -339,11 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-          <folding>
-            <marker date="1533509620596" expanded="true" signature="6:78" ph="..." />
-            <marker date="1533509620596" expanded="true" signature="126:255" ph="{...}" />
-            <marker date="1533509620596" expanded="true" signature="176:253" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -351,12 +296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <marker date="1533513119463" expanded="true" signature="23:605" ph="{...}" />
-            <marker date="1533513119463" expanded="true" signature="39:100" ph="{...}" />
-            <marker date="1533513119463" expanded="true" signature="112:583" ph="{...}" />
-            <marker date="1533513119463" expanded="true" signature="169:575" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,12 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <marker date="1533595039847" expanded="true" signature="25:1188" ph="{...}" />
-            <marker date="1533595039847" expanded="true" signature="39:216" ph="{...}" />
-            <marker date="1533595039847" expanded="true" signature="228:1166" ph="{...}" />
-            <marker date="1533595039847" expanded="true" signature="285:1158" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,12 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <marker date="1533595243732" expanded="true" signature="20:1360" ph="{...}" />
-            <marker date="1533595243732" expanded="true" signature="34:211" ph="{...}" />
-            <marker date="1533595243732" expanded="true" signature="223:1338" ph="{...}" />
-            <marker date="1533595243732" expanded="true" signature="282:1330" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -390,12 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1533597219006" expanded="true" signature="28:1591" ph="{...}" />
-            <marker date="1533597219006" expanded="true" signature="42:219" ph="{...}" />
-            <marker date="1533597219006" expanded="true" signature="231:1569" ph="{...}" />
-            <marker date="1533597219006" expanded="true" signature="288:1561" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,12 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1533657676019" expanded="true" signature="24:1069" ph="{...}" />
-            <marker date="1533657676019" expanded="true" signature="38:164" ph="{...}" />
-            <marker date="1533657676019" expanded="true" signature="176:1047" ph="{...}" />
-            <marker date="1533657676019" expanded="true" signature="233:1039" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,12 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
-          <folding>
-            <marker date="1533720464618" expanded="true" signature="27:1145" ph="{...}" />
-            <marker date="1533720464618" expanded="true" signature="41:83" ph="{...}" />
-            <marker date="1533720464618" expanded="true" signature="95:1123" ph="{...}" />
-            <marker date="1533720464618" expanded="true" signature="152:1115" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,11 +338,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/Terrian.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
-            <marker date="1533957423679" expanded="true" signature="22:781" ph="{...}" />
-            <marker date="1533957423679" expanded="true" signature="36:137" ph="{...}" />
-            <marker date="1533957423679" expanded="true" signature="149:759" ph="{...}" />
-            <marker date="1533957423679" expanded="true" signature="206:751" ph="{...}" />
+            <marker date="1533966734514" expanded="true" signature="24:911" ph="{...}" />
+            <marker date="1533966734514" expanded="true" signature="38:154" ph="{...}" />
+            <marker date="1533966734514" expanded="true" signature="166:889" ph="{...}" />
+            <marker date="1533966734514" expanded="true" signature="223:881" ph="{...}" />
           </folding>
         </state>
       </provider>
