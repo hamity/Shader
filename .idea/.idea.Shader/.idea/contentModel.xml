@@ -7,89 +7,27 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Scene" t="Include">
+          <e p="sample.shader" t="Include" />
+        </e>
+        <e p="Shader" t="Include">
+          <e p="Black.shader" t="Include" />
+          <e p="CSharp.shader" t="Include" />
+          <e p="Ice.shader" t="Include" />
+          <e p="RimLighting.shader" t="Include" />
+          <e p="simple.shader" t="Include" />
+          <e p="Skeleton.shader" t="Include" />
+          <e p="StandGrass.shader" t="Include" />
+          <e p="Terrian.shader" t="Include" />
+          <e p="Texture.shader" t="Include" />
+          <e p="Water.shader" t="Include" />
+        </e>
+        <e p="ShaderController.cs" t="Include" />
         <e p="Standard Assets" t="Include">
-          <e p="CrossPlatformInput" t="Include">
-            <e p="CrossPlatformInputGuidelines.txt" t="Include" />
-            <e p="Scripts" t="Include">
-              <e p="AxisTouchButton.cs" t="Include" />
-              <e p="ButtonHandler.cs" t="Include" />
-              <e p="CrossPlatformInputManager.cs" t="Include" />
-              <e p="InputAxisScrollbar.cs" t="Include" />
-              <e p="Joystick.cs" t="Include" />
-              <e p="MobileControlRig.cs" t="Include" />
-              <e p="PlatformSpecific" t="Include">
-                <e p="MobileInput.cs" t="Include" />
-                <e p="StandaloneInput.cs" t="Include" />
-              </e>
-              <e p="TiltInput.cs" t="Include" />
-              <e p="TouchPad.cs" t="Include" />
-              <e p="VirtualInput.cs" t="Include" />
-            </e>
-          </e>
           <e p="Editor" t="Include">
             <e p="CrossPlatformInput" t="Include">
               <e p="CrossPlatformInputInitialize.cs" t="Include" />
             </e>
-          </e>
-          <e p="Environment" t="Include">
-            <e p="Water" t="Include">
-              <e p="Water" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="Displace.cs" t="Include" />
-                  <e p="GerstnerDisplace.cs" t="Include" />
-                  <e p="MeshContainer.cs" t="Include" />
-                  <e p="PlanarReflection.cs" t="Include" />
-                  <e p="SpecularLighting.cs" t="Include" />
-                  <e p="Water.cs" t="Include" />
-                  <e p="WaterBase.cs" t="Include" />
-                  <e p="WaterTile.cs" t="Include" />
-                </e>
-                <e p="Shaders" t="Include">
-                  <e p="FXWaterPro.shader" t="Include" />
-                </e>
-              </e>
-              <e p="Water4" t="Include">
-                <e p="Shaders" t="Include">
-                  <e p="FXWater4Advanced.shader" t="Include" />
-                  <e p="FXWater4Simple.shader" t="Include" />
-                  <e p="WaterInclude.cginc" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="Water (Basic)" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="WaterBasic.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="FXWaterBasic.shader" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Utility" t="Include">
-            <e p="ActivateTrigger.cs" t="Include" />
-            <e p="AlphaButtonClickMask.cs" t="Include" />
-            <e p="AutoMobileShaderSwitch.cs" t="Include" />
-            <e p="AutoMoveAndRotate.cs" t="Include" />
-            <e p="CameraRefocus.cs" t="Include" />
-            <e p="CurveControlledBob.cs" t="Include" />
-            <e p="DragRigidbody.cs" t="Include" />
-            <e p="DynamicShadowSettings.cs" t="Include" />
-            <e p="EventSystemChecker.cs" t="Include" />
-            <e p="FollowTarget.cs" t="Include" />
-            <e p="ForcedReset.cs" t="Include" />
-            <e p="FOVKick.cs" t="Include" />
-            <e p="FPSCounter.cs" t="Include" />
-            <e p="LerpControlledBob.cs" t="Include" />
-            <e p="ObjectResetter.cs" t="Include" />
-            <e p="ParticleSystemDestroyer.cs" t="Include" />
-            <e p="PlatformSpecificContent.cs" t="Include" />
-            <e p="SimpleActivatorMenu.cs" t="Include" />
-            <e p="SimpleMouseRotator.cs" t="Include" />
-            <e p="SmoothFollow.cs" t="Include" />
-            <e p="TimedObjectActivator.cs" t="Include" />
-            <e p="TimedObjectDestructor.cs" t="Include" />
-            <e p="WaypointCircuit.cs" t="Include" />
-            <e p="WaypointProgressTracker.cs" t="Include" />
           </e>
         </e>
       </e>
