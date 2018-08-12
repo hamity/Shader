@@ -1,9 +1,7 @@
 ﻿Shader "Custom/ValueNoise" {
 	Properties {
-		_Color ("Color", Color) = (1,1,1,1)
-		_MainTex ("Albedo (RGB)", 2D) = "white" {}
-		_Glossiness ("Smoothness", Range(0,1)) = 0.5
-		_Metallic ("Metallic", Range(0,1)) = 0.0
+	    _MainTex("Albedo(2D)", 2D) = "white"{}
+	    _Divide("Divide", float) = 8
 	}
 	SubShader {
 		Tags { "RenderType"="Opaque" }
@@ -17,30 +15,48 @@
 		#pragma target 3.0
 
 		sampler2D _MainTex;
+		float _Divide;
 
 		struct Input {
 			float2 uv_MainTex;
 		};
-
-		half _Glossiness;
-		half _Metallic;
-		fixed4 _Color;
-
-		// Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
-		// See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
-		// #pragma instancing_options assumeuniformscaling
-		UNITY_INSTANCING_BUFFER_START(Props)
-			// put more per-instance properties here
-		UNITY_INSTANCING_BUFFER_END(Props)
+		
+		float random(fixed2 p)
+		{
+		    //dot(x, y): xとyの内積
+		    //frac(x): x - floor(x) (つまり、xの小数点を返す)
+		    //floor(x): x以下の最大の整数
+		    return frac(sin(dot(p, fixed2(12.9898,78.233))) * 43758.5453);
+		}
+		
+		float noise(fixed2 p)
+		{
+			//floor(x): x以下の最大の整数
+		    //今回の場合は x.x, x.yのいずれにもfloor()が適用される
+		    fixed2 r = floor(p);
+		    return random(r);
+		}
+		
+		float valueNoise(fixed2 p)
+		{
+		    fixed2 a = floor(p);
+		    //frac: pの小数部を返す
+		    fixed2 b = frac(p);
+		    
+		    float uv00 = noise(p + fixed2(0, 0));
+		    float uv01 = noise(p + fixed2(0, 1));
+		    float uv10 = noise(p + fixed2(1, 0));
+		    float uv11 = noise(p + fixed2(1, 1));
+		    
+		    fixed2 u = b * b * (3.0 - 2.0 * b);
+		    float uv00_10 = lerp(uv00, uv10, u.x);
+		    float uv01_11 = lerp(uv01, uv11, u.x);
+		    return lerp(uv00_10, uv01_11, u.y);
+		}
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
-			// Albedo comes from a texture tinted by color
-			fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-			o.Albedo = c.rgb;
-			// Metallic and smoothness come from slider variables
-			o.Metallic = _Metallic;
-			o.Smoothness = _Glossiness;
-			o.Alpha = c.a;
+			float r = valueNoise(IN.uv_MainTex * _Divide);     //uv値を入れると、対応する値が帰って来る
+		    o.Albedo = fixed4(r, r, r, 1);
 		}
 		ENDCG
 	}
