@@ -16,6 +16,7 @@
           <e p="Ice.shader" t="Include" />
           <e p="Noise" t="Include">
             <e p="BlockNoise.shader" t="Include" />
+            <e p="fBmNoise.shader" t="Include" />
             <e p="PerlinNoise.shader" t="Include" />
             <e p="RandomNoise.shader" t="Include" />
             <e p="ValueNoise.shader" t="Include" />
