@@ -13,7 +13,9 @@
         <e p="Shader" t="Include">
           <e p="Black.shader" t="Include" />
           <e p="CSharp.shader" t="Include" />
+          <e p="CullOff.shader" t="Include" />
           <e p="Ice.shader" t="Include" />
+          <e p="LavaLamp.shader" t="Include" />
           <e p="Noise" t="Include">
             <e p="BlockNoise.shader" t="Include" />
             <e p="fBmNoise.shader" t="Include" />
@@ -121,9 +123,7 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Shader.sln" t="IncludeFlat" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
