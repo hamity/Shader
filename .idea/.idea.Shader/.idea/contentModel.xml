@@ -15,7 +15,7 @@
           <e p="CSharp.shader" t="Include" />
           <e p="CullOff.shader" t="Include" />
           <e p="Ice.shader" t="Include" />
-          <e p="LavaLamp.shader" t="Include" />
+          <e p="LavaRighting.shader" t="Include" />
           <e p="Noise" t="Include">
             <e p="BlockNoise.shader" t="Include" />
             <e p="fBmNoise.shader" t="Include" />
