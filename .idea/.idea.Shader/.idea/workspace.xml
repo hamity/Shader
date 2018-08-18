@@ -7,8 +7,6 @@
     <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/LavaLamp.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/LavaLamp.shader.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,17 +85,25 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="LavaRighting.shader" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LavaRighting.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/LavaRighting.shader">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="785">
               <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Toon.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/Toon.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
               <folding>
-                <marker date="1534463814350" expanded="true" signature="28:1609" ph="{...}" />
-                <marker date="1534463814350" expanded="true" signature="85:129" ph="{...}" />
-                <marker date="1534463814350" expanded="true" signature="142:1607" ph="{...}" />
-                <marker date="1534463814350" expanded="true" signature="197:1604" ph="{...}" />
-                <marker date="1534463814350" expanded="true" signature="211:1595" ph="{...}" />
+                <marker date="1534600739830" expanded="true" signature="21:1892" ph="{...}" />
+                <marker date="1534600739830" expanded="true" signature="35:160" ph="{...}" />
+                <marker date="1534600739830" expanded="true" signature="172:1870" ph="{...}" />
+                <marker date="1534600739830" expanded="true" signature="229:1862" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -136,6 +142,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Noise/fBmNoise.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Water.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Noise/RandomNoise.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Toon.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scene/sample.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Terrian.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/StandGrass.shader" root0="SKIP_HIGHLIGHTING" />
@@ -179,6 +186,7 @@
         <option value="$PROJECT_DIR$/Assets/Shader/cullShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/CullOff.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/LavaRighting.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Toon.shader" />
       </list>
     </option>
   </component>
@@ -254,12 +262,12 @@
       <workItem from="1533381536410" duration="15977000" />
       <workItem from="1534044915836" duration="2200000" />
       <workItem from="1534110179634" duration="5785000" />
-      <workItem from="1534202538863" duration="3382000" />
+      <workItem from="1534202538863" duration="5733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27344000" />
+    <option name="totallyTimeSpent" value="29695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,19 +315,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Shader/Water.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <marker date="1533957423679" expanded="true" signature="22:781" ph="{...}" />
-            <marker date="1533957423679" expanded="true" signature="36:137" ph="{...}" />
-            <marker date="1533957423679" expanded="true" signature="149:759" ph="{...}" />
-            <marker date="1533957423679" expanded="true" signature="206:751" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shader/Terrian.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -779,12 +774,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="785">
           <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/Toon.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
           <folding>
-            <marker date="1534463814350" expanded="true" signature="28:1609" ph="{...}" />
-            <marker date="1534463814350" expanded="true" signature="85:129" ph="{...}" />
-            <marker date="1534463814350" expanded="true" signature="142:1607" ph="{...}" />
-            <marker date="1534463814350" expanded="true" signature="197:1604" ph="{...}" />
-            <marker date="1534463814350" expanded="true" signature="211:1595" ph="{...}" />
+            <marker date="1534600739830" expanded="true" signature="21:1892" ph="{...}" />
+            <marker date="1534600739830" expanded="true" signature="35:160" ph="{...}" />
+            <marker date="1534600739830" expanded="true" signature="172:1870" ph="{...}" />
+            <marker date="1534600739830" expanded="true" signature="229:1862" ph="{...}" />
           </folding>
         </state>
       </provider>

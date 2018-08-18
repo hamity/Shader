@@ -30,6 +30,7 @@
           <e p="StandGrass.shader" t="Include" />
           <e p="Terrian.shader" t="Include" />
           <e p="Texture.shader" t="Include" />
+          <e p="Toon.shader" t="Include" />
           <e p="Water.shader" t="Include" />
         </e>
         <e p="ShaderController.cs" t="Include" />
