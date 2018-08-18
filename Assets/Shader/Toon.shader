@@ -51,6 +51,11 @@
 		    return c;
 		}
 
+        /*
+        surfシェーダでライティングの工程をフックした場合には、
+        surfの出力にはSurfaceOutputStandard型を使うことができないため、SurfaceOutput型に書き換えている。
+        SurfaceOutput型にはEmmisionやSmoothnessは定義されていないので削除
+        */
 		void surf (Input IN, inout SurfaceOutput o) {       // StandardSurfaceOutputからSurfaceOutputに変更
 			// Albedo comes from a texture tinted by color
 			//uv_MainTexは、uv座標に対応するTextureを返すのだと思われる
