@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be660035-5d4f-4356-9de9-34513101d1ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dissolve.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dissolve.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Dissolve.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Dissolve.shader.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,21 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockNoise.shader" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shader/Noise/BlockNoise.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-              <folding>
-                <marker date="1534111088299" expanded="true" signature="27:1073" ph="{...}" />
-                <marker date="1534111088299" expanded="true" signature="41:123" ph="{...}" />
-                <marker date="1534111088299" expanded="true" signature="135:1051" ph="{...}" />
-                <marker date="1534111088299" expanded="true" signature="192:1043" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -191,6 +177,7 @@
         <option value="$PROJECT_DIR$/Assets/Shader/Toon.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/VertexColor.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Flag.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Dissolve.shader" />
       </list>
     </option>
   </component>
@@ -271,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33344000" />
+    <option name="totallyTimeSpent" value="34550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,19 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Shader/Noise/RandomNoise.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" />
-          <folding>
-            <marker date="1534110483353" expanded="true" signature="28:854" ph="{...}" />
-            <marker date="1534110483353" expanded="true" signature="42:90" ph="{...}" />
-            <marker date="1534110483353" expanded="true" signature="102:832" ph="{...}" />
-            <marker date="1534110483353" expanded="true" signature="159:824" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shader/Noise/PerlinNoise.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -759,6 +733,13 @@
             <marker date="1534618029874" expanded="true" signature="41:1656" ph="{...}" />
             <marker date="1534618029874" expanded="true" signature="98:1648" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/Dissolve.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

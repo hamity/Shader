@@ -14,6 +14,7 @@
           <e p="Black.shader" t="Include" />
           <e p="CSharp.shader" t="Include" />
           <e p="CullOff.shader" t="Include" />
+          <e p="Dissolve.shader" t="Include" />
           <e p="Flag.shader" t="Include" />
           <e p="Ice.shader" t="Include" />
           <e p="LavaRighting.shader" t="Include" />
