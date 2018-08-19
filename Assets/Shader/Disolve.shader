@@ -39,17 +39,24 @@
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
 			// Albedo comes from a texture tinted by color
+			//MainTexのuv座標に対応する_DisolveTexのデータを取得
 			fixed4 c = tex2D (_DisolveTex, IN.uv_MainTex);
+			//グレースケールに変換
 		    half g = c.r * 0.2 + c.g * 0.7 + c.b * 0.1;
+		    //閾値以下の場合
 		    if(g < _Threshold)
 		    {
+		        //その画素を画面に描かない (何も出力しない)
 		        discard;
 		    }
 		    
+		    //以下は通常と同じ
 		    fixed4 d = tex2D(_MainTex, IN.uv_MainTex) * _Color;
 			o.Albedo = d.rgb;
 			// Metallic and smoothness come from slider variables
+			//表面がどれくらい「金属的か」を決定
 			o.Metallic = _Metallic;
+			//どの程度表面が滑らかか決定する(0だとザラザラ)
 			o.Smoothness = _Glossiness;
 			o.Alpha = d.a;
 		}
